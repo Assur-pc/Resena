@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Página tipo Padlet</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<main>
+        <section id="padlet">
+            <!-- Publicación 1 -->
+            <div class="post">
+                <h3>Primer procesador cuántico lógico</h3>
+                <p>Investigadores han creado el primer procesador cuántico lógico totalmente funcional. Este avance permite la ejecución de algoritmos cuánticos más complejos y acercará el mundo a la era de la computación cuántica.</p>
+                
+            </div>
+<body>
+  <div class="container">
+    <!-- Publicaciones generadas dinámicamente -->
+    <div id="posts-container" class="posts-container"></div>
+  </div>
+
+<!-- Modal para mostrar la publicación completa -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span class="close-button" onclick="closeModal()">&times;</span>
+    <h2 id="modal-title"></h2> <!-- Aquí aparecerá el título de la publicación -->
+    <p id="modal-content"></p> <!-- Aquí aparecerá el contenido de la publicación -->
+  </div>
+</div>
+
+
+  <!-- Slideshow para presentaciones -->
+  <div id="slideshow" class="slideshow">
+    <div class="slides" id="slide-content"></div>
+    <button class="prev" onclick="prevSlide()" aria-label="Diapositiva anterior">&#10094;</button>
+    <button class="next" onclick="nextSlide()" aria-label="Diapositiva siguiente">&#10095;</button>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
