@@ -35,7 +35,7 @@ const postsData = [
     title: "Futuro de la computación cuántica",
     content: `
       <p>Con este avance, los procesadores cuánticos lógicos están cada vez más cerca de hacer realidad la computación cuántica práctica. Esto tendrá un impacto en áreas como la medicina, la ciencia, la optimización financiera y mucho más.</p>
-      <img src="Future_quantum.jpg" alt="Futuro de la computación cuántica">
+      <img src="Future_quantum.jpg" alt="Futuro de la asdasdscomputación cuántica">
     `,
     size: "large"
   },
