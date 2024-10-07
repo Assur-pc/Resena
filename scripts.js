@@ -7,7 +7,7 @@ const postsData = [
       <p>Un equipo de Harvard ha creado el primer procesador cuántico lógico de 48 qubits, un avance significativo en el camino hacia la computación cuántica estable con corrección de errores. Este procesador abre nuevas posibilidades en medicina, ciencia y finanzas.</p>
       <img src="quantum_processor.jpg" alt="Imagen de un procesador cuántico">
     `,
-    size: "large"
+    size: "samll"
   },
   {
     id: 2,
@@ -55,7 +55,7 @@ const postsData = [
       <p>Los procesadores cuánticos podrían revolucionar sectores como la química y la medicina. Al simular moléculas complejas, los investigadores podrán descubrir nuevos materiales, medicamentos y tratamientos personalizados.</p>
       <img src="quantum_medicine.jpg" alt="Aplicaciones en medicina cuántica">
     `,
-    size: "small"
+    size: "large"
   },
   {
     id: 7,
@@ -72,9 +72,10 @@ const postsData = [
     content: `
       <p>Para más información, visita el artículo original en la Harvard Gazette: <a href="https://news.harvard.edu/gazette/story/2023/12/researchers-create-first-logical-quantum-processor/?authuser=0" target="_blank">Clic aquí</a></p>
     `,
-    size: "large"
+    size: "small"
   },
 ];
+
 
 
 // Variables para el slideshow
